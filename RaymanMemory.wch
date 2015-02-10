@@ -15,4 +15,26 @@ SystemID PSX
 0AF08C	w	u	0	MainRAM	plum 3 x
 0ADFEC	w	u	0	MainRAM	plum 1 x
 0ADFFC	w	s	0	MainRAM	plum 1 x speed
+000000	S	_	0		
+1F61E7	b	u	0	MainRAM	On Map
+0F66A6	b	u	0	MainRAM	On Map 2
+1E63E8	d	u	0	MainRAM	About to go
+1F7F80	d	u	0	MainRAM	Map location
+1CEE81	b	u	0	MainRAM	In Level
+000000	S	_	0		
+1F8138	d	u	0	MainRAM	Cages
+1C3364	b	u	0	MainRAM	Levels unlocked (start)
+1C34B8	b	u	0	MainRAM	Mr Dark unlocked
+1F8120	b	u	0	MainRAM	Picking Up Cage
+1F9AC8	b	u	0	MainRAM	Persistent things (start)
+1F4430	w	u	0	MainRAM	Screen Width
+1F4432	w	u	0	MainRAM	Screen Height
+1F4438	d	h	0	MainRAM	Tile addresses (start)
+000000	S	_	0		
+1D8B35	b	u	0	MainRAM	Fist returning
+1D8B39	b	u	0	MainRAM	Fist hitting something
+1F84B8	w	u	0	MainRAM	Camera X
+1F84C0	w	u	0	MainRAM	Camera Y
+1E4F59	b	h	0	MainRAM	Strings
+126528	b	u	0	MainRAM	Filename Strings (start)
 
