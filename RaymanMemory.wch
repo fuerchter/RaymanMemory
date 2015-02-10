@@ -7,7 +7,7 @@ SystemID PSX
 1F4EB0	w	s	0	MainRAM	X Speed Main???
 1FFE3C	w	s	0	MainRAM	X Speed 2
 1F61CE	w	s	0	MainRAM	Y speed (fullpx)
-000000	S	_	0	
+000000	S	_	0		
 1D8B30	b	s	0	MainRAM	Fist Charge Up
 0AF022	w	u	0	MainRAM	plum 2 x
 0AF02C	w	s	0	MainRAM	Plum 2 x speed
