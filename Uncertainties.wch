@@ -1,0 +1,20 @@
+Domain MainRAM
+SystemID PSX
+012720	d	h	0	MainRAM	Animations
+1C1270	b	h	0	MainRAM	Movement state?
+1F61F6	b	u	0	MainRAM	Movement/animation state
+1F61F8	b	h	0	MainRAM	Animation state
+1F61E2	w	u	0	MainRAM	Invulnerability frames
+1F9A68	b	h	0	MainRAM	HUD1
+1FA688	b	h	0	MainRAM	HUD2
+000000	S	_	0		
+0ADCF0	b	h	0	MainRAM	AL1: Background (start)
+0AEBBC	b	h	0	MainRAM	Goal sign
+0AECD8	b	h	0	MainRAM	Top cage
+0AEDEC	b	h	0	MainRAM	Back sign
+0AEEA0	b	h	0	MainRAM	Bottom right cage
+0AFF6C	b	h	0	MainRAM	Livingstone
+0B09B8	b	h	0	MainRAM	First plum
+0B0DF8	b	h	0	MainRAM	Bottom sprite first plum
+0B1321	b	h	0	MainRAM	Green balls on plum
+
