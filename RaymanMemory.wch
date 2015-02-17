@@ -1,11 +1,10 @@
 Domain MainRAM
 SystemID PSX
-1F9A10	w	u	0	MainRAM	Rayman X???
-1F61BC	w	u	0	MainRAM	Rayman X
-1F61BE	w	u	0	MainRAM	Rayman Y
-1F9A28	w	u	0	MainRAM	Rayman Y 2
-1F4EB0	w	s	0	MainRAM	X Speed Main???
-1FFE3C	w	s	0	MainRAM	X Speed 2
+1F9A10	w	s	0	MainRAM	Rayman X
+1F61BC	w	s	0	MainRAM	Rayman X 2
+1F61BE	w	s	0	MainRAM	Rayman Y
+1F9A28	w	s	0	MainRAM	Rayman Y 2
+1F4EB0	w	s	0	MainRAM	X Speed (subpx)
 1F61CC	w	s	0	MainRAM	X Speed (fullpx)
 1F61CE	w	s	0	MainRAM	Y speed (fullpx)
 1FA550	w	s	0	MainRAM	x camera speed (fullpx)
