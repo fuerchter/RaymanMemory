@@ -52,6 +52,8 @@ SystemID PSX
 1F4430	w	u	0	MainRAM	Screen Width
 1F4432	w	u	0	MainRAM	Screen Height
 1F4438	d	h	0	MainRAM	Tile addresses (start)
+1D7AE0	d	h	0	MainRAM	Events (start)
+1D7AE4	b	u	0	MainRAM	Event count
 000000	S	_	0		
 1F61C2	w	s	0	MainRAM	Rayman X (relative to camera)
 1F61C4	w	s	0	MainRAM	Rayman Y (relative to screen)
