@@ -4,7 +4,6 @@ SystemID PSX
 1C1270	b	h	0	MainRAM	Movement state?
 1F61F6	b	u	0	MainRAM	Movement/animation state
 1F61F8	b	h	0	MainRAM	Animation state
-1F61E2	w	u	0	MainRAM	Invulnerability frames
 1F9A68	b	h	0	MainRAM	HUD1
 1FA688	b	h	0	MainRAM	HUD2
 000000	S	_	0		

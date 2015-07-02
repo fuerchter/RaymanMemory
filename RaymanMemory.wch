@@ -46,6 +46,7 @@ SystemID PSX
 1F8138	d	u	0	MainRAM	Cages
 1C3364	b	u	0	MainRAM	Levels unlocked (start)
 1C34B8	b	u	0	MainRAM	Mr Dark unlocked
+1F43D1	b	u	0	MainRAM	Is running unlocked (can have other effects)
 1F8120	b	u	0	MainRAM	Picking Up Cage
 1F9AC8	b	u	0	MainRAM	Persistent things (start)
 1F4430	w	u	0	MainRAM	Screen Width
@@ -76,6 +77,12 @@ SystemID PSX
 1F61FC	w	s	0	MainRAM	Fall Counter
 1F61F6	w	s	0	MainRAM	Rayman Animation Index Start
 1F61F8	w	s	0	MainRAM	Rayman Animation Index Start
-1F620D	b	s	0	MainRAM	
-1D09D0	w	s	0	MainRAM	
+1F620D	b	s	0	MainRAM	?
+1D09D0	w	s	0	MainRAM	?
+000000	S	_	0		
+1E4D50	b	u	0	MainRAM	Lives
+1F6200	b	u	0	MainRAM	HP
+1F61E2	w	u	0	MainRAM	Invincibility
+1F7A48	b	u	0	MainRAM	Is in (boss) win pose (can be used to cheat to next screen)
+1FA5A8	w	u	0	MainRAM	Is going back to map
 
