@@ -6,8 +6,9 @@ At _13fd7c_ in the assembly code some hitbox intersections are tested. _r4-r7_ u
 There is a list of single frames of an animation starting at **4316c** (An example would be the tings in Anguish lagoon first screen, which start at **43680**). How the address of them are calculated I will have to look into again (but I assume it uses the address at **offset 0** of each event).
 
 length: 20 bytes
+
 |offset|bytesize|description|
-|-|-|-|
+|---|---|---|
 |05||width (of sprite)|
 |06||height|
 |09||used in the assembly code to calculate the position of a hitbox (not 100% sure of it's meaning though)|
@@ -21,8 +22,9 @@ length: 20 bytes
 Similar to the previous one, each frame of an animation is represented with the address at **offset 4** of an event (this is combined with **offset 54** in the following way (in the assembly): off4+sll(sll(off54, 1)+off54, 2))
 
 length: 4 bytes
+
 |offset|bytesize|description|
-|-|-|-|
+|---|---|---|
 |0||flipping direction|
 |1||x-offset (moves the sprite at the current frame)|
 |2||y-offset|
@@ -32,8 +34,9 @@ length: 4 bytes
 Some properties for certain event types are (assumed) to be where **offset c** of an event is pointing to (tings tend to be at **43db8** for example).
 
 length: 8 bytes
+
 |offset|bytesize|description|
-|-|-|-|
+|---|---|---|
 |2||animation index (ALSO AFFECTS HITBOX!) (overwrites **54** in event)|
 |4||overwrites **58** in event|
 |6||plays sound effects|
@@ -42,8 +45,9 @@ length: 8 bytes
 **1c1a94** contains a list of hitboxes. These are not all hitboxes yet, afaik, but I'm trying to find more (example: **1c1b34** is the Anguish lagoon first screen goal sign). 1c1a94+sll(off48, 3) is how it seems to be calculated in the assembly (some events even have 00 at **offset 48**).
 
 length: 8 bytes
+
 |offset|bytesize|description|
-|-|-|-|
+|---|---|---|
 |0|2*2|offset of the hitbox (depends on which way the event is facing?)|
 |4||width|
 |5||height|
@@ -56,8 +60,9 @@ length: 8 bytes
 **1d7ae0** holds a pointer to the list of events. **1d7ae4** is the number of events on the current screen.
 
 length: 112 bytes
+
 |offset|bytesize|description|
-|-|-|-|
+|---|---|---|
 |00|4|might point to animation|
 |04|4|might point to animation (points to addresses, which all point to after **00/0c**?)|
 |08|4|magic value|
