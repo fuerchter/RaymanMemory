@@ -1,0 +1,76 @@
+Domain MainRAM
+SystemID PSX
+1F61D4	w	u	0	MainRAM	Rayman - is slippery
+0129B9	b	s	0	MainRAM	P Speed H Left
+0129C1	b	s	0	MainRAM	P Speed H Left
+0129C9	b	s	0	MainRAM	P Speed H Left
+012A29	b	s	0	MainRAM	P Speed R Left
+012A31	b	s	0	MainRAM	P Speed R Left
+012A39	b	s	0	MainRAM	P Speed R Left
+012AA1	b	s	0	MainRAM	P Speed R Left
+0129B8	b	s	0	MainRAM	P Speed H Right
+0129C0	b	s	0	MainRAM	P Speed H Right
+0129C8	b	s	0	MainRAM	P Speed H Right
+012A28	b	s	0	MainRAM	P Speed R Right
+012A30	b	s	0	MainRAM	P Speed R Right
+012A38	b	s	0	MainRAM	P Speed R Right
+012AA0	b	s	0	MainRAM	P Speed R Right
+000000	S	_	0		
+1F55A0	w	s	0	MainRAM	Ring Tether Length
+1D8B30	w	u	0	MainRAM	Fist Charge Up
+000000	S	_	0		
+1F61E7	b	u	0	MainRAM	On Map
+0F66A6	b	u	0	MainRAM	On Map 2
+1E63E8	d	u	0	MainRAM	About to go
+1F7F80	d	u	0	MainRAM	Map location
+1CEE81	b	u	0	MainRAM	In Level
+000000	S	_	0		
+1F8138	d	u	0	MainRAM	Cages
+1C3364	b	u	0	MainRAM	Levels unlocked (start)
+1C34B8	b	u	0	MainRAM	Mr Dark unlocked
+1F43D1	b	u	0	MainRAM	Is running unlocked (can have other effects)
+1F8120	b	u	0	MainRAM	Picking Up Cage
+1F9AC8	b	u	0	MainRAM	Persistent things (start)
+1F4430	w	u	0	MainRAM	Screen Width
+1F4432	w	u	0	MainRAM	Screen Height
+1F4438	d	h	0	MainRAM	Tile addresses (start)
+1D7AE0	d	h	0	MainRAM	Events (start)
+1D7AE4	b	u	0	MainRAM	Event count
+000000	S	_	0		
+1F61C2	w	s	0	MainRAM	Rayman X (relative to camera)
+1F61C4	w	s	0	MainRAM	Rayman Y (relative to screen)
+1F84B8	w	u	0	MainRAM	Camera X
+1F84C0	w	u	0	MainRAM	Camera Y
+1FA550	w	s	0	MainRAM	x camera speed (fullpx)
+1E4F59	b	h	0	MainRAM	Strings
+126528	b	u	0	MainRAM	Filename Strings (start)
+1D8B37	b	u	1	MainRAM	Fist Power
+1D8B2C	w	u	0	MainRAM	Fist Charge
+1D8B32	w	u	0	MainRAM	Fist Speed
+1D8B31	b	u	0	MainRAM	Fist Release Energy
+1D8B28	w	s	0	MainRAM	Fist Y (subpx)
+0A6EFA	w	s	0	MainRAM	Fist Y (fullpx)
+0A6EF8	w	s	0	MainRAM	Fist X (fullpx)
+0A6EFE	w	s	0	MainRAM	Fist X (relative to screen)
+1E561C	w	s	0	MainRAM	Fist X (relative to screen)
+1D8B35	b	u	0	MainRAM	Fist returning
+1D8B39	b	u	0	MainRAM	Fist hitting something
+1F61EC	b	s	0	MainRAM	Block Types around Rayman
+1F61DE	w	s	0	MainRAM	Rayman fall counter
+1F4EBA	b	s	0	MainRAM	Counters
+1F61FC	w	s	0	MainRAM	Fall Counter
+1F61F6	w	s	0	MainRAM	Rayman Animation Index Start
+1F61F8	w	s	0	MainRAM	Rayman Animation Index Start
+1F620D	b	s	0	MainRAM	?
+1D09D0	w	s	0	MainRAM	?
+000000	S	_	0		
+1E4D50	b	u	0	MainRAM	Lives
+1F6200	b	u	0	MainRAM	HP
+1F61E2	w	u	0	MainRAM	Invincibility
+1F7A48	b	u	0	MainRAM	Is in (boss) win pose (can be used to cheat to next screen)
+1FA5A8	w	u	0	MainRAM	Is going back to map
+1F9A10	w	s	0	MainRAM	Hitbox X
+1F9A28	w	u	0	MainRAM	Hitbox Y
+1F9A08	b	u	0	MainRAM	Hitbox width
+1F84C8	b	u	0	MainRAM	Hitbox height
+
