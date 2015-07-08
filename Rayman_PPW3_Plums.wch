@@ -1,0 +1,30 @@
+Domain MainRAM
+SystemID PSX
+0AF01C	w	u	0	MainRAM	Plum 1 X Absolute
+0AF022	w	s	0	MainRAM	Plum 1 X Relative
+0AF02C	w	s	0	MainRAM	Plum 1 X Speed
+0AF01E	w	s	0	MainRAM	Plum 1 Y Absolute
+0AF024	w	s	0	MainRAM	Plum 1 Y Relative
+0AF02E	w	s	0	MainRAM	Plum 1 Y Speed
+000000	S	_	0		
+0AF08C	w	u	0	MainRAM	Plum 2 X Absolute
+0AF092	w	s	0	MainRAM	Plum 2 X Relative
+0AF09C	w	s	0	MainRAM	Plum 2 X Speed
+0AF08E	w	u	0	MainRAM	Plum 2 Y Absolute
+0AF094	w	s	0	MainRAM	Plum 2 Y Relative
+0AF09E	w	s	0	MainRAM	Plum 2 Y Speed
+000000	S	_	0		
+0AEC9C	w	u	0	MainRAM	Plum 3 X Absolute
+0AECA2	w	s	0	MainRAM	Plum 3 X Relative
+0AECAC	w	s	0	MainRAM	Plum 3 X Speed
+0AEC9E	w	u	0	MainRAM	Plum 3 Y Absolute
+0AECA4	w	s	0	MainRAM	Plum 3 Y Relative
+0AECAE	w	s	0	MainRAM	Plum 3 Y Speed
+000000	S	_	0		
+0AEE5C	w	u	0	MainRAM	Plum 4 X Absolute
+0AEE62	w	s	0	MainRAM	Plum 4 X Relative
+0AEE6C	w	s	0	MainRAM	Plum 4 X Speed
+0AEE5E	w	u	0	MainRAM	Plum 4 Y Absolute
+0AEE64	w	s	0	MainRAM	Plum 4 Y Relative
+0AEE6E	w	s	0	MainRAM	Plum 4 Y Speed
+
