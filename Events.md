@@ -4,6 +4,7 @@
 ## Rayman
 Rayman himself is stored (at **1f61a0**) in a similar way to the events, so the data from the Main Events list can be applied to him as well.  
 Rayman's hitbox can be read in the following way:
+
 |address|bytesize|description|
 |---|---|---|
 |1f9a10|2|x|
