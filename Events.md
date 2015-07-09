@@ -47,7 +47,7 @@ length: 4 bytes
 |2||y-offset|
 |3||sprite index|
 
-The next 4 bytes point to a hitbox (and you can add sll(off55, 2) of an event to it, to get the current frame, this is done at *140804* in the assembly):  
+The next 4 bytes point to a hitbox (and you can add sll(off55, 2) of an event to it, to get the current frame, this is done at _140804_ in the assembly):  
 length: 4 bytes
 
 |offset|bytesize|description|
@@ -57,7 +57,7 @@ length: 4 bytes
 |2||width|
 |3||height|
 
-If an event is flipped horizontally, the x-position of the hitbox will change. Instead of adding the x-offset of the hitbox to the event's position, you will need to do the following calculation (similar to *147374*): xPosition+sll(off52, 1)-xOffset-width
+If an event is flipped horizontally, the x-position of the hitbox will change. Instead of adding the x-offset of the hitbox to the event's position, you will need to do the following calculation (similar to _147374_): xPosition+sll(off52, 1)-xOffset-width
 
 
 ## Other properties
