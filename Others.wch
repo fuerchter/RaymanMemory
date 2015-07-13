@@ -28,6 +28,7 @@ SystemID PSX
 1F8138	d	u	0	MainRAM	Cages
 1C3364	b	u	0	MainRAM	Levels unlocked (start)
 1C34B8	b	u	0	MainRAM	Mr Dark unlocked
+1F43D0	b	b	0	MainRAM	Other powers unlocked
 1F43D1	b	u	0	MainRAM	Is running unlocked (can have other effects)
 1F8120	b	u	0	MainRAM	Picking Up Cage
 1F9AC8	b	u	0	MainRAM	Persistent things (start)
