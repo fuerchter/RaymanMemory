@@ -1,6 +1,5 @@
 Domain MainRAM
 SystemID PSX
-1F61D4	w	u	0	MainRAM	Rayman - is slippery
 0129B9	b	s	0	MainRAM	P Speed H Left
 0129C1	b	s	0	MainRAM	P Speed H Left
 0129C9	b	s	0	MainRAM	P Speed H Left
@@ -17,7 +16,6 @@ SystemID PSX
 012AA0	b	s	0	MainRAM	P Speed R Right
 000000	S	_	0		
 1F55A0	w	s	0	MainRAM	Ring Tether Length
-1D8B30	w	u	0	MainRAM	Fist Charge Up
 000000	S	_	0		
 1F61E7	b	u	0	MainRAM	On Map
 0F66A6	b	u	0	MainRAM	On Map 2
@@ -26,7 +24,7 @@ SystemID PSX
 1CEE81	b	u	0	MainRAM	In Level
 000000	S	_	0		
 1F8138	d	u	0	MainRAM	Cages
-1C3364	b	u	0	MainRAM	Levels unlocked (start)
+1C335C	w	u	0	MainRAM	Levels and Cages unlocked (20 bytes each) (start)
 1C34B8	b	u	0	MainRAM	Mr Dark unlocked
 1F43D0	b	b	0	MainRAM	Other powers unlocked
 1F43D1	b	u	0	MainRAM	Is running unlocked (can have other effects)
