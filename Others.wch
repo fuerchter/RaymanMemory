@@ -65,7 +65,9 @@ SystemID PSX
 000000	S	_	0		
 1E4D50	b	u	0	MainRAM	Lives
 1F6200	b	u	0	MainRAM	HP
+1E4D56	b	u	0	MainRAM	Tings
 1F61E2	w	u	0	MainRAM	Invincibility
+1E5420	b	h	0	MainRAM	Set to 0 to noclip
 1F7A48	b	u	0	MainRAM	Is in (boss) win pose (can be used to cheat to next screen)
 1FA5A8	w	u	0	MainRAM	Is going back to map
 1F9A10	w	s	0	MainRAM	Hitbox X
